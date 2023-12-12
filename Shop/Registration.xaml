@@ -1,0 +1,152 @@
+﻿<Page x:Class="Shop.Registration"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Shop"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="Registration">
+
+    <Grid>
+        <StackPanel Margin="155,211,530,199" Background="#FF04B704">
+            <Label Content="Имя" Margin="0,10,0,0" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+            </Label>
+            <Label Content="Отчество" Margin="0,0,0,5" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </Label>
+            <Label Content="Фамилия" Margin="0,0,0,5" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </Label>
+            
+            <Label Content="Логин" Margin="0,0,0,5" RenderTransformOrigin="1.839,0.579" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </Label>
+            <Label Content="Пароль" Margin="0,0,0,5" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </Label>
+        </StackPanel>
+        <StackPanel Margin="270,211,221,199" Background="#FF04B704">
+            <TextBox x:Name="UserSurname" Height="30" Width="300" Margin="0,10,0,0" >
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </TextBox>
+            <TextBox x:Name="UserName" Height="30" Width="300" Margin="0,5,0,0" >
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </TextBox>
+            <TextBox x:Name="UserPatronymic" Height="30" Width="300" Margin="0,5,0,0" >
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </TextBox>
+            <TextBox x:Name="UserLogin" Height="30" Width="300" Margin="0,5,0,0" >
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </TextBox>
+            <PasswordBox x:Name="UserPassword" Height="30" Width="300" Margin="0,5,0,0" >
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </PasswordBox>
+        </StackPanel>
+        <StackPanel Margin="0,431,10,95" Orientation="Horizontal">
+            <Button Content="Зарегистрироваться" Click="Reg_Click" Height="30" Margin="270,0,0,0" RenderTransformOrigin="2.482,0.102" Background="#FF04B704" Foreground="White" Width="130" >
+            <UIElement.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </UIElement.RenderTransform>
+            </Button>
+            <Button Content="Назад" Click="Back_Click" Height="30" Margin="25,0,0,0" RenderTransformOrigin="2.482,0.102" Background="#FF04B704" Foreground="White" Width="130">
+                <UIElement.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </UIElement.RenderTransform>
+            </Button>
+        </StackPanel>
+        <Image Margin="325,0,316,432" Height="150" Width="150" Source="/logo.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.939"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Frame x:Name="framereg" NavigationUIVisibility="Hidden" Grid.RowSpan="2"/>
+
+    </Grid>
+</Page>
